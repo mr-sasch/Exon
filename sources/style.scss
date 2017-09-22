@@ -1,0 +1,17 @@
+//- Общие стили
+@import "templates/common-css/vars.scss";
+@import "templates/common-css/common.scss"; 
+
+//- Стили сетки страниц
+@import "templates/main-page/main-page.scss";
+
+//- Стили блоков
+/* Header */
+@import "blocks/header/header.scss";
+/* /Header */
+
+/* Footer */
+@import "blocks/footer/footer.scss";
+/* /Footer */
+
+//- Стили страниц (каскадные модификаторы стилей блоков)

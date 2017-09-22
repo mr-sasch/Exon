@@ -1,0 +1,135 @@
+@charset "UTF-8";
+/* Общие стили */
+html {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background-color: #b9b9b9; }
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  color: #464646; }
+
+/* Элементы сетки */
+.cell {
+  border: 1px solid #d9d9d9;
+  width: 100%;
+  position: relative; }
+
+.container {
+  border: 1px solid #d9d9d9;
+  max-width: 1000px;
+  width: 100%;
+  margin: auto;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  justify-content: space-between; }
+
+.col {
+  border: 1px solid #d9d9d9;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+
+	/* /Элементы сетки *
+
+/* Модификаторы */
+.mod_posa-right {
+  position: absolute;
+  right: 0; }
+
+/* /Модификаторы */
+/* Миксины контента */
+.content-block {
+  border: 1px solid #000;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+/* /Миксины контента */
+/* Временные стили */
+/* Бордюры */
+.temp__block-border {
+  border: 1px solid #d9d9d9; }
+
+.temp__block-bg {
+  background-color: #d9d9d9; }
+
+.temp__block {
+  border: 1px solid #d9d9d9; }
+
+/* /Бордюры */
+/* /Временные стили */
+/* /Общие стили */
+/* Главная */
+/* Header */
+/* responsive */
+/* /Главная */
+/* Header */
+/* Шапка */
+/* верхняя шапка */
+.header-top {
+  position: relative;
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  background-color: #8e8e8e;
+  z-index: 100; }
+
+.header-top .container {
+  justify-content: space-between; }
+
+/* /верхняя шапка */
+/* нижняя шапка */
+.header-botton {
+  background-color: #d9d9d9; }
+
+.header-bottom__left-wing,
+.header-bottom__right-wing {
+  width: 43%;
+  z-index: 100; }
+
+.header-bottom__center-logo-title {
+  position: absolute;
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+  left: 50%;
+  top: -170px;
+  transform: translateX(-50%);
+  justify-content: center;
+  background-color: #d9d9d9; }
+
+.header-bottom__center-logo .content-block {
+  z-index: 100; }
+
+.header-bottom__center-logo-title-box {
+  position: absolute;
+  bottom: 60px;
+  z-index: 90; }
+
+/* /нижняя шапка */
+/* /Шапка */
+/* /Header */
+/* Footer */
+footer {
+  display: -webkit-flex;
+  display: -ms-flex;
+  display: flex;
+  justify-content: space-between; }
+
+/* /Footer */
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,77 @@
+/* Общие стили */
+html {
+	position: absolute;
+	left: 0; right: 0; top: 0; bottom: 0;
+	background-color: $main-bg-color;
+}
+* {
+	box-sizing: border-box;
+	margin: 0; padding: 0;
+	font-family: 'Roboto', sans-serif;
+	color: #464646;
+}
+	/* Элементы сетки */
+.cell {
+	border: 1px solid $blocks-color;
+	width: 100%;
+	position: relative;
+}
+.container {
+	border: 1px solid $blocks-color;
+	max-width: $width-thin;
+	width: 100%;
+	margin: auto;
+	display: -webkit-flex;
+	display: -ms-flex;
+	display: flex;
+	justify-content: space-between;
+}
+.col {
+	border: 1px solid $blocks-color;
+	display: -webkit-flex;
+	display: -ms-flex;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+	/* /Элементы сетки *
+
+/* Модификаторы */
+.mod_posa-right {
+	position: absolute;
+	right: 0;
+}
+/* /Модификаторы */
+
+/* Миксины контента */
+.content-block {
+	border: 1px solid #000;
+	display: -webkit-flex;
+	display: -ms-flex;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+/* /Миксины контента */
+
+
+
+	/* Временные стили */
+
+		/* Бордюры */
+.temp__block-border {
+	border: 1px solid $blocks-color;
+}
+.temp__block-bg {
+	background-color: $blocks-color;
+}
+.temp__block {
+	border: 1px solid $blocks-color;
+}
+
+
+		/* /Бордюры */
+	/* /Временные стили */
+
+
+/* /Общие стили */

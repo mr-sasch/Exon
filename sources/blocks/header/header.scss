@@ -1,0 +1,72 @@
+/* Шапка */
+	/* верхняя шапка */
+.header-top {
+	position: relative;
+	display: -webkit-flex;
+	display: -ms-flex;
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	background-color: rgb(142, 142, 142);
+	z-index: 100;
+}
+.header-top .container {
+	justify-content: space-between;
+}
+/* /верхняя шапка */
+
+/* нижняя шапка */
+.header-botton {
+	background-color: $blocks-color;
+}
+.header-bottom__left-wing,
+.header-bottom__right-wing {
+	width: 43%;
+	z-index: 100;
+}
+.header-bottom__center-logo-title {
+	position: absolute;
+	width: 350px; height: 350px;
+	border-radius: 50%;
+	left: 50%; top: -170px;
+	transform: translateX(-50%);
+	justify-content: center;
+	background-color: $blocks-color;
+}
+.header-bottom__center-logo .content-block {
+	z-index: 100;
+}
+.header-bottom__center-logo-title-box {
+	position: absolute;
+	bottom: 60px;
+	z-index: 90;
+}
+
+// .header-botton {
+// 	z-index: 90;
+// }
+// .header-botton .container {
+// 	background-color: $blocks-color;
+// }
+// .header-bottom__logo-title {
+// 	position: absolute;
+// 	width: 350px; height: 350px;
+// 	border-radius: 50%;
+// 	left: 50%; top: -170px;
+// 	transform: translateX(-50%);
+// 	justify-content: center;
+// 	background-color: $blocks-color;
+// 	z-index: 10 !important;
+// }
+// .hheader-bottom__logo-title .header-bottom__logo-title-box {
+// 	position: absolute;
+// 	bottom: 50px;
+// }
+// .header-botton .col {
+// 	z-index: 90;
+// }
+
+
+/* /нижняя шапка */
+
+/* /Шапка */
